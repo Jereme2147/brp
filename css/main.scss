@@ -1,0 +1,194 @@
+$red: rgba(163, 22, 33, 1);
+$white: rgba(252, 247, 248, 1);
+$grey: rgba(206, 211, 220, 1);
+$blue: rgba(78, 128, 152, 1);
+$black: rgba(54, 54, 54, 1);
+$titles: 'Muli', sans-serif;
+$menu: 'Jaldi', sans-serif;
+$body: 'Molengo', sans-serif;
+@mixin tablet {
+    @media (min-width: 600px) and (max-width: 949px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 950px) {
+        @content;
+    }
+}
+// reset page
+body,
+html {
+    height: 100%;
+    margin: 0;
+
+    h1,
+    h3 {
+        margin: 0;
+    }
+}
+body {
+    background-color: $grey;
+}
+#banner {
+    img {
+        width: 100%;
+    }
+}
+#container {
+    width: 100vw;
+    height: 2000px; // this needs to be deleted
+}
+#content {
+    // position: fixed;
+    // top: 250px;
+}
+
+#map {
+    display: none;
+    @include desktop() {
+        display: block;
+        border-radius: 50%;
+        height: 90%;
+    }
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    @include desktop() {
+        
+        width: 40%;
+        height: 100%;
+    }
+
+}
+#menuBar {
+    width: 100vw;
+    height: 175px;
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include desktop(){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+.menuImg {
+    // height: 90%;
+}
+#menuItems {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    font-family: $menu;
+    li {
+        list-style-type: none;
+        color: $white;
+        &:active {
+            text-shadow: 1px 1px 1px $red;
+        }
+    }
+    @include desktop() {
+
+        li {
+            font-size: 20px;
+            &:hover {
+                text-shadow: 1px 1px 1px $red;
+            }
+        }
+    }
+}
+#nav {
+    position: fixed;
+        width: 100vw;
+        height: 250px;
+    @include desktop(){
+
+    }
+}
+#number {
+    h1 {
+        font-family: $titles;
+        color: $white;
+        text-shadow: 1px 1px 1px $red;
+        font-size: 25px;
+    }
+     @include desktop(){
+        //  height: 45px;
+        h1 {
+            font-size: 40px;
+        }    
+        
+        }
+}
+#placeholder {
+    width: 100vw;
+    height: 225px;
+
+    @include desktop(){
+        height: 250px;
+    }
+    
+    
+}
+#sign {
+    // width: 40%;
+    height: 50%;
+    border-radius: 5px;
+    
+    @include desktop(){
+        // width: 25%;
+        height: 85%;
+    }
+    
+}
+.quickButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $red;
+    color: $white;
+    font-family: $menu;
+    // font-size: 
+    text-shadow: 1px 1px 1px $black;
+    height: 30px;
+    border-radius: 5px;
+    border-top-color: $white;
+    border-left-color: $white;
+    border-right-color: $grey;
+    border-right-color: $grey;
+    @include desktop() {
+        padding: 0 3px 10px 3px;
+        font-size: 20px;
+        width: 20%;
+        height: 30px;
+    }
+
+    &:hover {
+        opacity: .7;
+    }
+}
+#quickNav {
+    background-image: url("../media/banner.png");
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    @include desktop(){
+        width: 100vw;
+        height: 75px;
+        justify-content: space-evenly;
+
+        // background-color: $black;
+    }
+}
