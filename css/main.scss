@@ -21,11 +21,15 @@ body,
 html {
     height: 100%;
     margin: 0;
+    text-decoration: none;
 
     h1,
     h3 {
         margin: 0;
     }
+}
+a {
+    text-decoration: none;
 }
 body {
     background-color: $grey;
@@ -39,11 +43,6 @@ body {
     width: 100vw;
     height: 2000px; // this needs to be deleted
 }
-#content {
-    // position: fixed;
-    // top: 250px;
-}
-
 #map {
     display: none;
     @include desktop() {
@@ -90,7 +89,9 @@ body {
     width: 100%;
     justify-content: space-around;
     font-family: $menu;
-    li {
+        text-decoration: none;
+    
+    a li {
         list-style-type: none;
         color: $white;
         &:active {
@@ -99,7 +100,7 @@ body {
     }
     @include desktop() {
 
-        li {
+       a li {
             font-size: 20px;
             &:hover {
                 text-shadow: 1px 1px 1px $red;
