@@ -18,6 +18,34 @@ $body: 'Molengo', sans-serif;
         @content;
     }
 }
+@mixin para {
+    font-family: $body;
+    color: $black;
+    text-shadow: 1px 1px 1px $white;
+}
+.about {
+    @include para();
+    background: linear-gradient(to bottom, rgba(206,211,220,1) 23%,rgba(252,247,248,1) 100%); 
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px $black, -2px -2px 2px $white;
+
+    }
+    @include desktop(){
+        flex-direction: row;
+        font-size: 25px;
+
+        img {
+            width: 30%;
+        }
+    }
+}
 #content {
     h3 {
         font-family: $menu;
@@ -28,6 +56,13 @@ $body: 'Molengo', sans-serif;
         font-family: $body;
         color: $black;
         padding: 5px 20px 5px 20px;
+    }
+}
+#history {
+    display: flex;
+    flex-direction: column;
+    h2 {
+        text-align: center;
     }
 }
 .products {
@@ -66,6 +101,9 @@ $body: 'Molengo', sans-serif;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding: 0 0 10px 0;
+        border-bottom: 2px solid $blue;
+        // box-shadow: 0 2px 1px $blue;
         
         li {
             color: black;
