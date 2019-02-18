@@ -6,7 +6,8 @@
     <title>Blue Ridge Propane</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/content.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/about.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Jaldi|Molengo|Muli" rel="stylesheet">
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
@@ -32,8 +33,8 @@
                     </div>
                     <div id="menuItems">
                         <a href="#"><li>Services</li></a>
-                        <a href="/brp/php/about.php"><li>About</li></a>
-                        <a href="#"><li>Contact</li></a>
+                        <a href="/brp/"><li>About</li></a>
+                        <a href="/brp/php/contact.php"><li>Contact</li></a>
                         <a href="/brp/php/products.php"><li>Products</li></a>
                         <a href="#"><li>More</li></a>
                     </div>
