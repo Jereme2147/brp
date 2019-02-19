@@ -25,11 +25,7 @@
         to become a customer. Fortunately, many companies that value their
         customers offer incentives to offset sign-on costs. Ask if the company
         offers incentives so you won’t have to pay for more than your propane
-        and delivery when you switch. Some propane suppliers even offer free
-        propane tanks, installation, and hookup for new customers—that’s a
-        $1,000 cost savings! Dealing with termination fees from your old
-        provider? A quality propane gas company looking to beat out their
-        competition may cover some or all of your termination fees.
+        and delivery when you switch. 
     </p>
     <img src="./php/pics/DSC_0066.png" alt="" />
 </div>

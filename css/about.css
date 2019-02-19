@@ -7,38 +7,25 @@ a[href^="tel"] {
   font-family: "Molengo", sans-serif;
   color: #363636;
   text-shadow: 1px 1px 1px #fcf7f8;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #ced3dc), to(#fcf7f8));
   background: linear-gradient(to bottom, #ced3dc 23%, #fcf7f8 100%);
   padding: 5px 20px 5px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .about img {
   width: 100%;
   border-radius: 10px;
-  -webkit-box-shadow: 2px 2px 2px #363636, -2px -2px 2px #fcf7f8;
-          box-shadow: 2px 2px 2px #363636, -2px -2px 2px #fcf7f8;
+  box-shadow: 2px 2px 2px #363636, -2px -2px 2px #fcf7f8;
 }
 
 @media (min-width: 950px) {
   .about {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     font-size: 25px;
     padding: 50px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .about img {
     width: 50%;
@@ -49,13 +36,8 @@ a[href^="tel"] {
 }
 
 #history {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 #history h2 {
@@ -63,11 +45,8 @@ a[href^="tel"] {
 }
 
 .products {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .products h1 {
@@ -82,16 +61,9 @@ a[href^="tel"] {
 
 .product-section {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
 }
 
@@ -104,22 +76,14 @@ a[href^="tel"] {
 .product-section img {
   width: 70%;
   border-radius: 10px;
-  -webkit-box-shadow: 3px 3px 3px #363636, -2px -2px 2px #fcf7f8;
-          box-shadow: 3px 3px 3px #363636, -2px -2px 2px #fcf7f8;
+  box-shadow: 3px 3px 3px #363636, -2px -2px 2px #fcf7f8;
 }
 
 .product-section ul {
   width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 0 0 10px 0;
   border-bottom: 2px solid #4e8098;
 }
@@ -141,4 +105,3 @@ a[href^="tel"] {
   font-size: 30px;
   text-shadow: 1px 1px 1px #363636;
 }
-/*# sourceMappingURL=about.css.map */

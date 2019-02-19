@@ -5,9 +5,9 @@ $white: rgba(252, 247, 248, 1);
 $grey: rgba(206, 211, 220, 1);
 $blue: rgba(78, 128, 152, 1);
 $black: rgba(54, 54, 54, 1);
-$titles: 'Muli', sans-serif;
-$menu: 'Jaldi', sans-serif;
-$body: 'Molengo', sans-serif;
+$titles: "Muli", sans-serif;
+$menu: "Jaldi", sans-serif;
+$body: "Molengo", sans-serif;
 @mixin tablet {
     @media (min-width: 600px) and (max-width: 949px) {
         @content;
@@ -23,9 +23,40 @@ $body: 'Molengo', sans-serif;
     color: $black;
     text-shadow: 1px 1px 1px $white;
 }
-a[href^="tel"]{
-    color:inherit;
-    text-decoration:none;
+a[href^="tel"] {
+    color: inherit;
+    text-decoration: none;
+}
+#address {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 20px;
+    // font-family: $titles;
+
+    h4, a {
+        // width: 60%;
+        // margin: 0;
+        // color: $black;
+        // text-shadow: 1px 1px 1px $white;
+        // font-family: $menu;
+        // font-size: 20px;
+        font-family: $titles;
+        font-size: 18px;
+        margin: 0;
+        color: $black;
+        text-shadow: 1px 1px 1px $white;
+    }
+    @include desktop() {
+        width: 30%;
+        justify-content: center;
+
+        h4,a {
+            width: 80%;
+            font-size: 25px;
+        }
+    }
 }
 #comment {
     display: flex;
@@ -35,6 +66,10 @@ a[href^="tel"]{
     textarea {
         width: 80%;
         height: 20vh;
+        background-color: $white;
+        border-color: $grey;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px $black;
     }
 }
 
@@ -44,10 +79,10 @@ a[href^="tel"]{
     flex-direction: column;
     margin-top: 10px;
     @include desktop() {
-     
+        flex-direction: row;
     }
 }
-#contact-form{
+#contact-form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -59,23 +94,64 @@ a[href^="tel"]{
     font-size: 30px;
     margin: 0;
     color: $black;
-
+    text-shadow: 1px 1px 1px $white;
+}
+#dropdown {
+    font-size: 18px;
+    color: $black;
+    background-color: $white;
+    border: 1px solid $grey;
+    margin-bottom: 10px;
 }
 #full-form {
     display: flex;
     flex-direction: column;
+    @include desktop() {
+        width: 40%;
+    }
 }
 .inputs {
     width: 90%;
+    height: 25px;
+    font-size: 18px;
     margin: 0 0 10px 0;
+    border-radius: 5px;
+    background-color: $white;
 }
 .map-div {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     iframe {
         width: 90%;
         height: 50vh;
+        box-shadow: 1px 1px 1px $black, -1px -1px 1px $white;
+
+    }
+    @include desktop(){
+        width: 30%;
+    }
+}
+#submit {
+    width: 100%;
+    text-align: center;
+    button {
+        background-color: $blue;
+        height: 30px;
+        width: 30%;
+        margin: 20px;
+        font-size: 20px;
+        color: $white;
+        text-shadow: 1px 1px 1px $red;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px $black, -1px -1px 1px $white;
+    }
+}
+#use {
+    margin-bottom: 20px;
+    li {
+        color: $black;
+        text-shadow: 1px 1px 1px $white;
     }
 }
 #user-info {
@@ -83,7 +159,7 @@ a[href^="tel"]{
     flex-direction: column;
     align-items: center;
     width: 100%;
-
+    margin-bottom: 20px;
     li {
         list-style: none;
     }
