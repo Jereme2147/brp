@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/about.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/contact.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/bill.css">
     <link href="https://fonts.googleapis.com/css?family=Jaldi|Molengo|Muli" rel="stylesheet">
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
@@ -20,9 +21,9 @@
         <nav id="nav">
             <!-- Quick navigation buttons -->
             <div id="quickNav">
-                <button class="quickButton">Request Delivery</button>
-                <button class="quickButton">Pay Your Bill</button>
-                <button class="quickButton">Become A Customer</button>
+                <button class="quickButton" onclick="window.location = '/brp/php/contact.php'" />Request Delivery</button>
+                <button class="quickButton"onclick="window.location = '/brp/php/bill.php'">Pay Your Bill</button>
+                <button class="quickButton" onclick="window.location = '/brp/php/contact.php'" />Become A Customer</button>
             </div>
             <!-- Menu bar -->
             <div id="menuBar">
@@ -36,7 +37,7 @@
                         <a href="/brp/"><li>About</li></a>
                         <a href="/brp/php/contact.php"><li>Contact</li></a>
                         <a href="/brp/php/products.php"><li>Products</li></a>
-                        <a href="#"><li>More</li></a>
+                        <a href="#"><li>Safety</li></a>
                     </div>
                 </div>
                 <img src="/brp/media/map.png" alt="map Avery Watauga Carter" class="menuImg" id="map">

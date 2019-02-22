@@ -1,0 +1,71 @@
+$red: rgba(163, 22, 33, 1);
+$white: rgba(252, 247, 248, 1);
+$grey: rgba(206, 211, 220, 1);
+$blue: rgba(78, 128, 152, 1);
+$black: rgba(54, 54, 54, 1);
+$titles: "Muli", sans-serif;
+$menu: "Jaldi", sans-serif;
+$body: "Molengo", sans-serif;
+@mixin tablet {
+    @media (min-width: 600px) and (max-width: 949px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 950px) {
+        @content;
+    }
+}
+#bill {
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    align-items: center;
+    h1, h2, p {
+        font-family: $titles;
+        padding: 5px 20px 5px 20px;
+    }
+    h1, h2 {
+        color: $black;
+        text-shadow: 1px 1px 2px $white; 
+    }
+    p {
+        font-size: 20px;
+    }
+    @include desktop(){
+        div {
+            width: 80%;
+        }
+    }
+}
+#billLink {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        height: 45px;
+        background-color: $blue;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px $black, -2px -2px 2px $white;
+
+        a {
+            font-family: $titles;
+            font-size: 30px;
+            color: $red;
+            text-shadow: 1px 1px 1px $white, -1px -1px 1px $black;
+        }
+
+    }
+    @include desktop() {
+        div {
+        text-align: center;
+        width: 30%;
+    }
+    }
+}

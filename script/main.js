@@ -24,21 +24,6 @@ function scrollNum() {
         }
     } else {   //window grow
         myGrow(75);
-       
-
-        // document.getElementById("sign").setAttribute("style", "display:block");
-        // if (desktop.matches) {
-        //     document
-        //         .getElementById("map")
-        //         .setAttribute("style", "display:block");
-        // }
-        // let height1 = document
-        //     .getElementById("menuBar")
-        //     .getAttribute("style", "height");
- 
-
-        // let bar = document.getElementById("menuBar");
-        // bar.setAttribute("style", "height:175px");
 
     }
 }
