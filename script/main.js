@@ -70,3 +70,13 @@ function myGrow(height) {
     document.getElementById("menuBar").setAttribute("style", "height:175px");
 
 }
+//expands divs for safety page.  code -jquery works, but only toggles once?
+function expand(id) {
+    let select = document.getElementById(id);
+    if (!select.getAttribute("style", "display") || 
+        select.getAttribute("style", "display") == "display:none"){
+        select.setAttribute("style", "display:flex; justify-content: center;");
+    } else {
+        select.setAttribute("style", "display:none");
+    }
+}

@@ -20,7 +20,7 @@ a[href^="tel"] {
 
 #address h4, #address a {
   font-family: "Muli", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   margin: 0;
   color: #363636;
   text-shadow: 1px 1px 1px #fcf7f8;
@@ -72,15 +72,9 @@ a[href^="tel"] {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 10px;
-}
-
-@media (min-width: 950px) {
-  #contact {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #contact-form {
@@ -125,7 +119,7 @@ a[href^="tel"] {
 
 @media (min-width: 950px) {
   #full-form {
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -160,7 +154,7 @@ a[href^="tel"] {
 
 @media (min-width: 950px) {
   .map-div {
-    width: 30%;
+    width: 50%;
   }
 }
 

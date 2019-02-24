@@ -9,11 +9,13 @@
             don't hesitate to contact us at 828-733-3603 or via email <a href="mailto:blueridgepropanenc@gmail.com">blueridgepropanenc@gmail.com</a></p>
         </div>
         <div id="billLink">
+            <a href="https://members.rccbi.com/webinq/fds/blunew/FQStart.aspx" target="_blank" >
             <div id="pay">
-                <a href="https://members.rccbi.com/webinq/fds/blunew/FQStart.aspx" target="_blank" >
+                
                     Pay here
-                </a>
+                
             </div>
+            </a>
         </div>
         <div id="privacy">
             <h1>Privacy Policy</h1>

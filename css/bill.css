@@ -42,7 +42,7 @@
   width: 100%;
 }
 
-#billLink div {
+#billLink a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,17 +59,20 @@
   text-align: center;
   width: 50%;
   height: 45px;
-  background-color: #4e8098;
+  background-color: #a31621;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 2px #363636, -2px -2px 2px #fcf7f8;
           box-shadow: 2px 2px 2px #363636, -2px -2px 2px #fcf7f8;
-}
-
-#billLink div a {
   font-family: "Muli", sans-serif;
   font-size: 30px;
-  color: #a31621;
+  color: #4e8098;
   text-shadow: 1px 1px 1px #fcf7f8, -1px -1px 1px #363636;
+}
+
+#billLink a:hover {
+  -webkit-box-shadow: 2px 2px 2px #fcf7f8, -2px -2px 2px #363636;
+          box-shadow: 2px 2px 2px #fcf7f8, -2px -2px 2px #363636;
+  text-shadow: 1px 1px 1px #363636, -1px -1px 1px #fcf7f8;
 }
 
 @media (min-width: 950px) {

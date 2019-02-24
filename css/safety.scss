@@ -1,0 +1,97 @@
+$red: rgba(163, 22, 33, 1);
+$white: rgba(252, 247, 248, 1);
+$grey: rgba(206, 211, 220, 1);
+$blue: rgba(78, 128, 152, 1);
+$black: rgba(54, 54, 54, 1);
+$titles: "Muli", sans-serif;
+$menu: "Jaldi", sans-serif;
+$body: "Molengo", sans-serif;
+@mixin tablet {
+    @media (min-width: 600px) and (max-width: 949px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 950px) {
+        @content;
+    }
+}
+.exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#safety {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $black;
+}
+.safety {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $black;
+    background: linear-gradient(to bottom, rgba(206,211,220,1) 23%,rgba(252,247,248,1) 100%); 
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        // padding: 20px;
+        h2,h4,ol {
+            padding: 20px;
+            font-family: $body;
+        }
+    }
+    @include desktop(){
+        div {
+            h4,ol {
+                padding: 10px 20% 10px 20%;
+                font-size: 20px;
+            }
+            li {
+                padding: 5px 0 5px 0;
+            }
+        }
+    }
+}
+
+#shutoff-exp {
+    display: none;
+}
+#smell-exp {
+    display: none; 
+}
+.safe-img {
+    width: 70%;
+    height: auto;
+    @include desktop() {
+        width: 50%;
+    }
+}
+#safe-title {
+    text-align: center;
+}
+.vid {
+
+        width: 250px;
+        height: 150px;
+    @include desktop() {
+        width: 560px;
+        height: 315px;
+    }
+   
+}
+// #smell {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     div
+//     @include desktop(){
+
+//     }
+
+// }

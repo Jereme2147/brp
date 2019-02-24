@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/about.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/contact.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/bill.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/safety.css">
     <link href="https://fonts.googleapis.com/css?family=Jaldi|Molengo|Muli" rel="stylesheet">
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
@@ -37,7 +38,7 @@
                         <a href="/brp/"><li>About</li></a>
                         <a href="/brp/php/contact.php"><li>Contact</li></a>
                         <a href="/brp/php/products.php"><li>Products</li></a>
-                        <a href="#"><li>Safety</li></a>
+                        <a href="/brp/php/safety.php"><li>Safety</li></a>
                     </div>
                 </div>
                 <img src="/brp/media/map.png" alt="map Avery Watauga Carter" class="menuImg" id="map">

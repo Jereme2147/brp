@@ -43,7 +43,7 @@ a[href^="tel"] {
         // font-family: $menu;
         // font-size: 20px;
         font-family: $titles;
-        font-size: 18px;
+        font-size: 15px;
         margin: 0;
         color: $black;
         text-shadow: 1px 1px 1px $white;
@@ -78,8 +78,9 @@ a[href^="tel"] {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    align-items: center;
     @include desktop() {
-        flex-direction: row;
+        // flex-direction: row;
     }
 }
 #contact-form {
@@ -107,7 +108,7 @@ a[href^="tel"] {
     display: flex;
     flex-direction: column;
     @include desktop() {
-        width: 40%;
+        width: 60%;
     }
 }
 .inputs {
@@ -129,7 +130,7 @@ a[href^="tel"] {
 
     }
     @include desktop(){
-        width: 30%;
+        width: 50%;
     }
 }
 #submit {

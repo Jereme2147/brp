@@ -1,0 +1,107 @@
+.exp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#safety {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #363636;
+}
+
+.safety {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #363636;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #ced3dc), to(#fcf7f8));
+  background: linear-gradient(to bottom, #ced3dc 23%, #fcf7f8 100%);
+}
+
+.safety div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.safety div h2, .safety div h4, .safety div ol {
+  padding: 20px;
+  font-family: "Molengo", sans-serif;
+}
+
+@media (min-width: 950px) {
+  .safety div h4, .safety div ol {
+    padding: 10px 20% 10px 20%;
+    font-size: 20px;
+  }
+  .safety div li {
+    padding: 5px 0 5px 0;
+  }
+}
+
+#shutoff-exp {
+  display: none;
+}
+
+#smell-exp {
+  display: none;
+}
+
+.safe-img {
+  width: 70%;
+  height: auto;
+}
+
+@media (min-width: 950px) {
+  .safe-img {
+    width: 50%;
+  }
+}
+
+#safe-title {
+  text-align: center;
+}
+
+.vid {
+  width: 250px;
+  height: 150px;
+}
+
+@media (min-width: 950px) {
+  .vid {
+    width: 560px;
+    height: 315px;
+  }
+}
+/*# sourceMappingURL=safety.css.map */
