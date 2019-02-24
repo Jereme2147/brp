@@ -77,6 +77,9 @@ function expand(id) {
         select.getAttribute("style", "display") == "display:none"){
         select.setAttribute("style", "display:flex; justify-content: center;");
     } else {
-        select.setAttribute("style", "display:none");
+        if (event.target.tagName.toLowerCase() !== 'a') {
+            select.setAttribute("style", "display:none");
+        }
+        
     }
 }

@@ -39,7 +39,50 @@
                 <iframe class="vid" src="https://www.youtube.com/embed/0dPMiNSkOKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <div id="guage" onclick="expand('guage-exp')" class="safety">
+            <div>
+                <h2>How to read your propane tank gauge</h2>
+            </div>
+             <div>
+                <img src="/brp/media/guage.png" alt="" class="safe-img">
+                <h3>&#x25BC Learn more &#x25BC</h3>
+            </div>
+            <div id="guage-exp" class="exp">
+                <iframe class="vid" src="https://www.youtube.com/embed/ZfNCihEGMqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="weather" onclick="expand('weather-exp')" class="safety">
+            <div>
+                <h2>Propane and weather safety</h2>
+            </div>
+             <div>
+                <img src="/brp/media/weather.png" alt="" class="safe-img">
+                <h3>&#x25BC Learn more &#x25BC</h3>
+            </div>
+            <div id="weather-exp" class="exp">
+                <p>These articles contain valuable safety tips to prepare you and your family for thunderstorms, extreme heat, power outages, earthquakes, wildfires, high snowfall areas, tornadoes, and winter storms. Learn more by clicking the links below.</p>
+                <ul>
+                    <li><a href="https://propane.com/safety/propane-safety-and-thunderstorms/" target="_blank">Propane Safety and Thunderstorms</a></li>
+                    <li><a href="https://propane.com/safety/propane-safety-and-hurricanes/" target="_blank">Propane Safety and Hurricanes</a></li>
+                    <li><a href="https://propane.com/safety/propane-safety-and-tornadoes/" target="_blank">Propane Safety and Tornadoes</a></li>
+                    <li><a href="https://propane.com/safety/propane-safety-and-floods/" target="_blank">Propane Safety and Floods</a></li>
+                    <li><a href="https://propane.com/safety/power-outage-safety/" target="_blank">Power Outage Safety</a></li>
+                    <li><a href="https://propane.com/safety/propane-safety-and-wildfires/" target="_blank">Propane Safety and Wildfires</a></li>
+                    <li><a href="https://propane.com/safety/propane-safety-and-extreme-heat/" target="_blank">Propane Safety and Extreme Heat</a></li>
+                    <li><a href="https://propane.com/safety/winter-weather-safety-tips/" target="_blank">Winter Weather Safety Tips</a></li>
+                    <li><a href="https://propane.com/safety/propane-safety-for-high-snowfall/" target="_blank">Propane Safety for High Snowfall</a></li>
+                </ul>
+            </div>
+            
+        </div>
+         <div id="addtional" class="safety">
+            <h3>Addtional Propane Safety Links</h3>
+            <div class="safe-links">
+                <img src="/brp/media/nfpa.png" alt="">
+                <p>NFPA Propane Safety</p>
+            </div>
 
+            </div>
     </div>
 <?php
     

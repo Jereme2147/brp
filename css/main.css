@@ -25,6 +25,10 @@ body {
   background-color: #ced3dc;
 }
 
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
 #banner img {
   width: 100%;
 }

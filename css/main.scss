@@ -38,6 +38,9 @@ a[href^="tel"]{
 body {
     background-color: $grey;
 }
+img {
+       -ms-interpolation-mode: bicubic;
+}
 #banner {
     img {
         width: 100%;

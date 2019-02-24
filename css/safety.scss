@@ -21,6 +21,9 @@ $body: "Molengo", sans-serif;
     flex-direction: row;
     justify-content: center;
 }
+#guage-exp {
+    display: none;
+}
 #safety {
     display: flex;
     flex-direction: column;
@@ -33,7 +36,7 @@ $body: "Molengo", sans-serif;
     align-items: center;
     color: $black;
     background: linear-gradient(to bottom, rgba(206,211,220,1) 23%,rgba(252,247,248,1) 100%); 
-
+    
     div {
         display: flex;
         flex-direction: column;
@@ -71,8 +74,34 @@ $body: "Molengo", sans-serif;
         width: 50%;
     }
 }
+.safe-links {
+    display: flex;
+    flex-direction: column;
+
+    @include desktop(){
+        display: flex;
+        flex-direction: row;
+
+        img {
+            width: 10%;
+            height: auto;
+        }
+    }
+}
 #safe-title {
     text-align: center;
+}
+#weather-exp {
+    display: none;
+    text-decoration: none;
+    color: $black;
+
+    a {
+        color: $black;
+    }
+    p {
+        padding: 5px 30px 5px 30px;
+    }
 }
 .vid {
 
