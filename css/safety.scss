@@ -6,6 +6,11 @@ $black: rgba(54, 54, 54, 1);
 $titles: "Muli", sans-serif;
 $menu: "Jaldi", sans-serif;
 $body: "Molengo", sans-serif;
+@mixin phone {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
 @mixin tablet {
     @media (min-width: 600px) and (max-width: 949px) {
         @content;
@@ -15,6 +20,15 @@ $body: "Molengo", sans-serif;
     @media (min-width: 950px) {
         @content;
     }
+}
+#additional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $black;
+    background: linear-gradient(to bottom, rgba(206,211,220,1) 23%,rgba(252,247,248,1) 100%); 
+    width: 100%;
+
 }
 .exp {
     display: flex;
@@ -36,20 +50,22 @@ $body: "Molengo", sans-serif;
     align-items: center;
     color: $black;
     background: linear-gradient(to bottom, rgba(206,211,220,1) 23%,rgba(252,247,248,1) 100%); 
-    
+    width: 100vw;
     div {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100vw;
         // padding: 20px;
-        h2,h4,ol {
+        h2,h4,ol, ul {
             padding: 20px;
             font-family: $body;
         }
+        
     }
     @include desktop(){
         div {
+            width: 80vw;
             h4,ol {
                 padding: 10px 20% 10px 20%;
                 font-size: 20px;
@@ -68,24 +84,36 @@ $body: "Molengo", sans-serif;
     display: none; 
 }
 .safe-img {
-    width: 70%;
-    height: auto;
+    @include phone(){
+        width: 70%;
+    }
+    // width: 70%;
+    // height: auto;
     @include desktop() {
-        width: 50%;
+        // width: 50%;
     }
 }
 .safe-links {
+    // display: flex;
+    // flex-direction: column;
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    border-bottom: 2px solid $blue;
+    padding: 20px;
+    @include phone(){
+        width: 80%;
+     img {
+         width: 20%;
+     }
+    }
+    a {
+        font-size: 25px;
+    }
     @include desktop(){
-        display: flex;
-        flex-direction: row;
-
-        img {
-            width: 10%;
-            height: auto;
-        }
+      
     }
 }
 #safe-title {

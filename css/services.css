@@ -1,0 +1,68 @@
+#services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #363636;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #ced3dc), to(#fcf7f8));
+  background: linear-gradient(to bottom, #ced3dc 23%, #fcf7f8 100%);
+  width: 100vw;
+}
+
+.services div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.services div h2, .services div h4, .services div ol, .services div ul {
+  padding: 20px;
+  font-family: "Molengo", sans-serif;
+}
+
+@media (min-width: 950px) {
+  .services div {
+    width: 80vw;
+  }
+  .services div h4, .services div ol {
+    padding: 10px 20% 10px 20%;
+    font-size: 20px;
+  }
+  .services div li {
+    padding: 5px 0 5px 0;
+  }
+}
+
+#service-title {
+  color: #a31621;
+  font-family: "Muli", sans-serif;
+  text-shadow: 2px 2px 1px #363636, -2px -2px 1px #fcf7f8;
+}
+/*# sourceMappingURL=services.css.map */

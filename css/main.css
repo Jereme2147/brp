@@ -207,6 +207,7 @@ img {
   background-color: #a31621;
   color: #fcf7f8;
   font-family: "Jaldi", sans-serif;
+  font-size: 15px;
   text-shadow: 1px 1px 1px #363636;
   height: 30px;
   border-radius: 5px;
@@ -214,14 +215,15 @@ img {
   border-left-color: #fcf7f8;
   border-right-color: #ced3dc;
   border-right-color: #ced3dc;
+  width: 45%;
 }
 
 @media (min-width: 950px) {
   .quickButton {
     padding: 0 3px 10px 3px;
-    font-size: 20px;
+    font-size: 30px;
     width: 20%;
-    height: 30px;
+    height: 45px;
   }
 }
 

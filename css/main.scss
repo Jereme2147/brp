@@ -178,7 +178,7 @@ img {
     background-color: $red;
     color: $white;
     font-family: $menu;
-    // font-size: 
+    font-size: 15px;
     text-shadow: 1px 1px 1px $black;
     height: 30px;
     border-radius: 5px;
@@ -186,11 +186,12 @@ img {
     border-left-color: $white;
     border-right-color: $grey;
     border-right-color: $grey;
+    width: 45%;
     @include desktop() {
         padding: 0 3px 10px 3px;
-        font-size: 20px;
+        font-size: 30px;
         width: 20%;
-        height: 30px;
+        height: 45px;
     }
 
     &:hover {

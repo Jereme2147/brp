@@ -11,7 +11,7 @@
                 
             </div>
             <div>
-                <img src="/brp/media/phone-call.jpg" alt="" class="safe-img">
+                <img src="/brp/media/phone-call.png" alt="" class="safe-img">
                 <h3>&#x25BC Learn more &#x25BC</h3>
             </div>
             <div id="smell-exp" class="exp">
@@ -27,7 +27,7 @@
             </div>
 
         </div>
-        <div id="shutoff" onclick="expand('shutoff-exp')" class="safety">
+        <div id="shutoff" onclick="expand('shutoff-exp')" class="safety"> 
             <div>
                 <h2>How to shut your propane take off</h2>
             </div>
@@ -60,7 +60,7 @@
                 <h3>&#x25BC Learn more &#x25BC</h3>
             </div>
             <div id="weather-exp" class="exp">
-                <p>These articles contain valuable safety tips to prepare you and your family for thunderstorms, extreme heat, power outages, earthquakes, wildfires, high snowfall areas, tornadoes, and winter storms. Learn more by clicking the links below.</p>
+                <h4>These articles contain valuable safety tips to prepare you and your family for thunderstorms, extreme heat, power outages, earthquakes, wildfires, high snowfall areas, tornadoes, and winter storms. Learn more by clicking the links below.</h4>
                 <ul>
                     <li><a href="https://propane.com/safety/propane-safety-and-thunderstorms/" target="_blank">Propane Safety and Thunderstorms</a></li>
                     <li><a href="https://propane.com/safety/propane-safety-and-hurricanes/" target="_blank">Propane Safety and Hurricanes</a></li>
@@ -75,11 +75,15 @@
             </div>
             
         </div>
-         <div id="addtional" class="safety">
+         <div id="additional">
             <h3>Addtional Propane Safety Links</h3>
             <div class="safe-links">
-                <img src="/brp/media/nfpa.png" alt="">
-                <p>NFPA Propane Safety</p>
+                <img src="/brp/media/nfpa100x100.png" alt="">
+                <a href="https://www.nfpa.org/Public-Education/By-topic/Safety-in-the-home/Gasoline-and-propane">NFPA Propane Safety</a>
+            </div>
+            <div class="safe-links">
+                <img src="/brp/media/propane100x100.png" alt="">
+                <a href="https://propane.com/safety/">Propane.com</a>
             </div>
 
             </div>

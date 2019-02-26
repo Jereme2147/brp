@@ -1,6 +1,9 @@
  <?php
     include_once "../header/header.php";
 ?>
+<div id="banner">
+    <img src="/brp/media/brpoffice.png" alt="banner with propane truck" />
+</div>
 <div id="contact">
     <div id="address">
         <h4>Blue Ridge Propane</h4>
