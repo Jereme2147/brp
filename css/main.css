@@ -87,7 +87,8 @@ img {
 #menuBar {
   width: 100vw;
   height: 175px;
-  background-color: #4e8098;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(125, 185, 232, 0)), to(#4e8098));
+  background: linear-gradient(to top, rgba(125, 185, 232, 0) 0%, #4e8098 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,6 +139,7 @@ img {
 #menuItems a li {
   list-style-type: none;
   color: #fcf7f8;
+  text-shadow: 1px 1px 1px #363636;
 }
 
 #menuItems a li:active {
@@ -246,6 +248,7 @@ img {
 
 .quickButton:hover {
   opacity: .7;
+  cursor: pointer;
 }
 
 #quickNav {
