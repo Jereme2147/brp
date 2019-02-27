@@ -1,0 +1,1 @@
+#landing{display:flex;flex-direction:column;align-items:center}#landing-header{display:flex;flex-direction:column;align-items:center;background-color:#ced3dc;color:#363636}@media (min-width: 950px){#landing-header{width:80%;font-size:25px;justify-content:center;align-items:center}}#trucks{width:100vw}@media (min-width: 950px){#phone-map{display:none}}

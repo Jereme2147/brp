@@ -1,0 +1,61 @@
+$red: rgba(163, 22, 33, 1);
+$white: rgba(252, 247, 248, 1);
+$grey: rgba(206, 211, 220, 1);
+$blue: rgba(78, 128, 152, 1);
+$black: rgba(54, 54, 54, 1);
+$titles: "Muli", sans-serif;
+$menu: "Jaldi", sans-serif;
+$body: "Molengo", sans-serif;
+@mixin phone {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: 600px) and (max-width: 949px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 950px) {
+        @content; 
+    }
+}
+#landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#landing-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $grey;
+    color: $black;
+
+        img{
+            // width: 30%;
+            // border-radius: 50%;
+            // height: 274px;
+            // width: 274px;
+        }  
+    @include desktop() {
+        // flex-direction: row;
+        width: 80%;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        // padding: 20px 0 0 0;
+
+    }
+}
+#trucks {
+    width: 100vw;
+}
+#phone-map {
+    
+    @include desktop() {
+        display: none;
+    }
+}

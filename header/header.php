@@ -6,7 +6,7 @@
     <title>Blue Ridge Propane</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/about.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/landing.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/contact.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/bill.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/safety.css">
@@ -24,8 +24,9 @@
             <!-- Quick navigation buttons -->
             <div id="quickNav">
                 <!-- <button class="quickButton" onclick="window.location = '/brp/php/contact.php'" />Request Delivery</button> -->
-                <button class="quickButton"onclick="window.location = '/brp/php/bill.php'">Pay Your Bill</button>
                 <button class="quickButton" onclick="window.location = '/brp/php/contact.php'" />Become A Customer</button>
+                <button class="quickButton"onclick="window.location = '/brp/php/bill.php'">Pay Your Bill</button>
+                
             </div>
             <!-- Menu bar -->
             <div id="menuBar">
@@ -43,6 +44,7 @@
                     </div>
                 </div>
                 <img src="/brp/media/map.png" alt="map Avery Watauga Carter" class="menuImg" id="map">
+                <!-- <img src="/brp/media/truck400.png" alt="" class="menuImg" id="truck"> -->
             </div>
         </nav>
         <!-- End nav div -->
