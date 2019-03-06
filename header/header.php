@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Blue Ridge Propane</title>
+    <meta name="keywords" content="North Carolina Propane, Propane Delivery, Propane accessories, Propane Service, Propane Instalation, Avery, Watauga, Cater, NC, TN" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="North Carolina Propane, Propane Delivery, Propane accessories, Propane Service, Propane Instalation, Avery, Watauga, Cater, NC, TN" />
+    <title>Blue Ridge Propane North Carolina Propane, Propane Delivery, Propane accessories, Propane Service, Propane Instalation, Avery, Watauga, Cater, NC, TN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/landing.css">
@@ -12,8 +15,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/safety.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/brp/css/services.css">
     <link href="https://fonts.googleapis.com/css?family=Jaldi|Molengo|Muli" rel="stylesheet">
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
     <script src="/brp/script/main.js"></script>
 </head>
 <body onscroll="scrollNum()">
@@ -23,8 +24,7 @@
         <nav id="nav">
             <!-- Quick navigation buttons -->
             <div id="quickNav">
-                <!-- <button class="quickButton" onclick="window.location = '/brp/php/contact.php'" />Request Delivery</button> -->
-                <button class="quickButton" onclick="window.location = '/brp/php/contact.php'" />Become A Customer</button>
+                <button class="quickButton" onclick="window.location = '/brp/php/contact.php'" />Become a Customer</button>
                 <button class="quickButton"onclick="window.location = '/brp/php/bill.php'">Pay Your Bill</button>
                 
             </div>
@@ -36,15 +36,14 @@
                         <h1>828-733-3603</h1>
                     </div>
                     <div id="menuItems">
-                        <a href="/brp/php/services.php"><li>Services</li></a>
-                        <a href="/brp/"><li>About</li></a>
-                        <a href="/brp/php/contact.php"><li>Contact</li></a>
-                        <a href="/brp/php/products.php"><li>Products</li></a>
-                        <a href="/brp/php/safety.php"><li>Safety</li></a>
+                        <a href="/brp/php/services.php"><li id="service-button">Services</li></a>
+                        <a href="/brp/"><li id="about-button">About</li></a>
+                        <a href="/brp/php/contact.php"><li id="contact-button">Contact</li></a>
+                        <a href="/brp/php/products.php"><li id="products-button">Products</li></a>
+                        <a href="/brp/php/safety.php"><li id="safety-button">Safety</li></a>
                     </div>
                 </div>
                 <img src="/brp/media/map.png" alt="map Avery Watauga Carter" class="menuImg" id="map">
-                <!-- <img src="/brp/media/truck400.png" alt="" class="menuImg" id="truck"> -->
             </div>
         </nav>
         <!-- End nav div -->

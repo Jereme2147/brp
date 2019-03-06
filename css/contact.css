@@ -27,14 +27,7 @@ a[href^="tel"] {
 }
 
 @media (min-width: 950px) {
-  #address {
-    width: 30%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   #address h4, #address a {
-    width: 80%;
     font-size: 25px;
   }
 }

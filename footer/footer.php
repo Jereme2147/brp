@@ -1,6 +1,6 @@
 </div>
         <footer>
-            <p>Jereme Daniels Developer all rights reserved</p>
+            <p>Web Developer -Jereme Daniels- all rights reserved</p>
         </footer>
 
     </div>

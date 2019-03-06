@@ -8,12 +8,19 @@
             <h3>Serving the High Country of Western NC and Eastern TN since 1992</h3>
             <img src="./media/mapsquare.png" alt="service area" id="phone-map" />
         </div>
+        <!-- to be removed at some point -->
 
         <div class="landing-div">
             <h3>Your only <strong>locally</strong> owned and
             operated full service propane company based in Avery
             County NC and serving Carter County TN by people You
             know from your community.</h3>
+        </div>
+        <div class="landing-div">
+            <div id="mobile-page">
+                <img src="./media/phone-page.png" alt="mobile phone page"/>
+                <h3>Be sure to check out our new mobile friendly website on your phone!</h3>
+            </div>
         </div>
         
         <div >

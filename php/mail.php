@@ -26,7 +26,7 @@
     if ($phone != '') {
         $message = $message . 'Phone Number: ' . $phone . $break;
     }
-    if ($choose != '') {
+    if ($choose != '' && $choose != 'none') {
         $message = $message . 'And needs to: ' . $choose . $break;
     }
     if ($heating != '' || $cooking != '' || $water != '' || $fireplace != '' || $clothes != '' || $generator != ''){

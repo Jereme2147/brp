@@ -18,6 +18,11 @@ $body: 'Molengo', sans-serif;
         @content;
     }
 }
+@mixin phone {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
 @mixin para {
     font-family: $body;
     color: $black;
@@ -35,8 +40,15 @@ a[href^="tel"]{
     flex-direction: column;
     justify-content: space-around;
     
+    @include phone() {
+        img {
+            width: 100%;
+        }
+
+    }
+    
     img {
-        width: 100%;
+        
         border-radius: 10px;
         box-shadow: 2px 2px 2px $black, -2px -2px 2px $white;
 
@@ -49,7 +61,7 @@ a[href^="tel"]{
         align-items: center;
 
         img {
-            width: 50%;
+            // width: 50%;
         }
         h3,p, ul {
             width: 80%;

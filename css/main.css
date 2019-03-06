@@ -48,6 +48,10 @@ img {
   padding: 5px 20px 5px 20px;
 }
 
+footer p {
+  text-align: center;
+}
+
 #map {
   display: none;
 }
@@ -119,6 +123,30 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
+  #menuBar:hover {
+    -webkit-animation: menufade 1s forwards;
+            animation: menufade 1s forwards;
+  }
+}
+
+@-webkit-keyframes menufade {
+  0% {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(125, 185, 232, 0)), to(#4e8098));
+    background: linear-gradient(to top, rgba(125, 185, 232, 0) 0%, #4e8098 100%);
+  }
+  100% {
+    background-color: #4e8098;
+  }
+}
+
+@keyframes menufade {
+  0% {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(125, 185, 232, 0)), to(#4e8098));
+    background: linear-gradient(to top, rgba(125, 185, 232, 0) 0%, #4e8098 100%);
+  }
+  100% {
+    background-color: #4e8098;
+  }
 }
 
 #menuItems {
@@ -140,6 +168,7 @@ img {
   list-style-type: none;
   color: #fcf7f8;
   text-shadow: 1px 1px 1px #363636;
+  font-size: 20px;
 }
 
 #menuItems a li:active {
@@ -193,7 +222,7 @@ img {
 
 @media (min-width: 950px) {
   #sign {
-    height: 85%;
+    height: 80%;
   }
 }
 
@@ -221,14 +250,14 @@ img {
   background-color: #a31621;
   color: #fcf7f8;
   font-family: "Muli", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   height: 30px;
   border-radius: 5px;
   border-top-color: #fcf7f8;
   border-left-color: #fcf7f8;
   border-right-color: #ced3dc;
   border-right-color: #ced3dc;
-  width: 45%;
+  width: 49%;
 }
 
 @media (min-width: 950px) {
@@ -247,8 +276,65 @@ img {
 }
 
 .quickButton:hover {
-  opacity: .7;
+  -webkit-animation: quickhover 1s forwards, wiggle 1s infinite;
+          animation: quickhover 1s forwards, wiggle 1s infinite;
   cursor: pointer;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(2deg);
+            transform: rotateZ(2deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-2deg);
+            transform: rotateZ(-2deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(2deg);
+            transform: rotateZ(2deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-2deg);
+            transform: rotateZ(-2deg);
+  }
+}
+
+@-webkit-keyframes quickhover {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #fcf7f8;
+  }
+}
+
+@keyframes quickhover {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #fcf7f8;
+  }
 }
 
 #quickNav {

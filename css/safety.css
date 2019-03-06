@@ -109,6 +109,12 @@
   }
 }
 
+@media (min-width: 600px) and (max-width: 949px) {
+  .safe-img {
+    width: 70%;
+  }
+}
+
 .safe-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,14 +129,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40%;
+  width: 50%;
   border-bottom: 2px solid #4e8098;
   padding: 20px;
 }
 
 @media (max-width: 599px) {
   .safe-links {
-    width: 80%;
+    width: 95%;
   }
   .safe-links img {
     width: 20%;

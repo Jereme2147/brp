@@ -84,6 +84,21 @@ $body: "Molengo", sans-serif;
 .landing-imgs {
     width: 100vw;
 }
+#mobile-page {
+    display: none;
+    @include desktop() {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        align-self: center;
+        // padding: 5% 10% 5% 10%;
+        h3 {
+            margin: 0 0 0 30px;
+            color: white;
+            text-shadow: 3px 3px 3px $black, -2px -2px 1px $grey;
+        }
+    }
+}
 #phone-map {
     border-radius: 20px;
     @include desktop() {

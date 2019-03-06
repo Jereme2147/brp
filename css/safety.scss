@@ -87,6 +87,9 @@ $body: "Molengo", sans-serif;
     @include phone(){
         width: 70%;
     }
+    @include tablet() {
+        width: 70%;
+    }
     // width: 70%;
     // height: auto;
     @include desktop() {
@@ -100,11 +103,11 @@ $body: "Molengo", sans-serif;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 50%;
     border-bottom: 2px solid $blue;
     padding: 20px;
     @include phone(){
-        width: 80%;
+        width: 95%;
      img {
          width: 20%;
      }

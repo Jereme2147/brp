@@ -16,7 +16,7 @@
 </div>
 <div id="look" class="about">
     <h2>5 Questions to ask before hiring a new Propane Gas Company</h2>
-    <img src="../php/pics/DSC_0020.png" alt="" />
+    <img src="../media/trackhotank600.png" alt="tank being lifted by a trackhoe" />
 </div>
 <div class="about">
     <h3>1: What are the fees and incentives for new customers?</h3>
@@ -28,7 +28,7 @@
         offers incentives so you won’t have to pay for more than your propane
         and delivery when you switch. 
     </p>
-    <img src="../php/pics/DSC_0066.png" alt="" />
+    <img src="../media/tankbury600.png" alt="tank being burried" />
 </div>
 <div class="about">
     <h3>2: What payment and budget plans do you offer?</h3>
@@ -63,7 +63,7 @@
         when considering your monthly usage multiplied by fluctuating propane
         prices.
     </p>
-    <img src="../php/pics/IMG_0321.png" alt="" />
+    <img src="../media/truckfill600.png" alt="blue ridge propane truck filling" />
 </div>
 <div class="about">
     <h3>3: What other services do you offer besides propane delivery?</h3>
@@ -93,7 +93,7 @@
         services you need. Why sign on with a propane delivery company if they
         don’t cover every service you’re looking for?
     </p>
-    <img src="../php/pics/DSC_0003.png" alt="" />
+    <img src="../media/trackhoe600.png" alt="tractor on the back of a dump truck" />
 </div>
 <div class="about">
     <h3>4: Will you help me monitor my usage?</h3>

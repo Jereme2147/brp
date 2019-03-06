@@ -50,7 +50,7 @@ function fixWindow() {
 function myMove(height) {
     let id = setInterval(frame, 2);
     function frame() {
-        if (height <= 75) {
+        if (height <= 95) {
             clearInterval(id);
         } else {
             height = height - 2;
