@@ -5,7 +5,7 @@
     <div id="landing">
         <div id="landing-header">
             <img src="./media/trucksrear.png" alt="trucks lined up" class="landing-imgs"/>
-            <h3>Serving the High Country of Western NC and Eastern TN since 1992</h3>
+            <h3>Serving the High Countries Propane needs in Western NC and Eastern TN since 1992</h3>
             <img src="./media/mapsquare.png" alt="service area" id="phone-map" />
         </div>
         <!-- to be removed at some point -->
@@ -16,8 +16,8 @@
             County NC and serving Carter County TN by people You
             know from your community.</h3>
         </div>
-        <div class="landing-div">
-            <div id="mobile-page">
+        <div class="landing-div" id="mobile-page">
+            <div>
                 <img src="./media/phone-page.png" alt="mobile phone page"/>
                 <h3>Be sure to check out our new mobile friendly website on your phone!</h3>
             </div>
@@ -39,10 +39,12 @@
         </div>
         
         <div class="landing-div" id="hours">
-                <h2>Hours of operation:</h2>
-                <h3>7:30 - 4 Monday - Friday</h3>
-                <h3>24/365 Emergency Service</h3>
+            <img src="./media/clock.png" alt="a clock">
+            <h2>Hours of operation:</h2>
+            <h3>7:30 a.m. - 4 p.m. Monday - Friday</h3>
+            <h3>24 hours / 365 Days Emergency Service</h3>
         </div>
+
     </div>
 
 <?php

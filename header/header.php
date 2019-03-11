@@ -30,12 +30,14 @@
             </div>
             <!-- Menu bar -->
             <div id="menuBar">
+            <!-- Link to be changed on upload *************** -->
                 <img src="/brp/media/brpLogo.png" alt="blue ridge propane sign" class="menuImg" id="sign">
                 <div id="menu">
                     <div id="number">
                         <h1>828-733-3603</h1>
                     </div>
                     <div id="menuItems">
+                    <!-- all these links need to be changed on upload *************** -->
                         <a href="/brp/php/services.php"><li id="service-button">Services</li></a>
                         <a href="/brp/"><li id="about-button">About</li></a>
                         <a href="/brp/php/contact.php"><li id="contact-button">Contact</li></a>

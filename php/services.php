@@ -6,13 +6,34 @@
     <img src="/brp/media/bottomBanner.png" alt="banner with propane truck" />
 </div>
 <div id="history" class="about">
-    <h2>Serving the High Country since 1992</h2>
-    <h3>
+    <h1><strong>Providing Propane Service to the High Country Since 1992</strong></h1>
+    <h2>
         Blue Ridge Propane is your local Residential and Commercial propane
         provider. We offer safe delivery of quality propane, tanks, and
         accessories, right to your home, business or job-site. Call us today
         828-733-3603
-    </h3>
+    </h2>
+</div>
+<div class="about" id="range">
+    <h2>Blue Ridge Propane offers a full range of services.</h2>
+    <div>
+        <img src="/brp/media/truck500.png" alt="Propane delivery truck" />
+        <ul>
+        <li>Commercial and Residential Propane</li>
+        <li>Appliance Sales
+            <ul>
+                <li>Water Heaters</li>
+                <li>Fire Logs</li>
+                <li>Room Heaters</li>
+                <!-- link needs to be changed when uploaded ********* -->
+                <li><a href="/brp/php/products.php">Full list HERE</a></li>
+            </ul>
+        </li>
+        <li>Propane System & Appliance Service</li>
+    </ul>
+    </div>
+    
+    <h3>Here are a few things to consider:</h3>
 </div>
 <div id="look" class="about">
     <h2>5 Questions to ask before hiring a new Propane Gas Company</h2>

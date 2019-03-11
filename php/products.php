@@ -39,7 +39,7 @@
                 <a href="http://americanfyredesigns.com/fire-pits_fire-urns/fire-pits/" target="_blank"><li>American Fyre Designs</li></a>
                 <a href="http://www.empirecomfort.com/2017/05/19/carol-rose-outdoor-linear-fire-pits/" target="_blank"><li>Carol Rose by Empire</li></a>
                 <a href="http://www.firegearoutdoors.com/" target="_blank"><li>Firegear Outdoor</li></a>
-                <a href="https://www.monessenhearth.com/fireplaces/outdoor-fireplaces" target="_blank"><li>Monessen / Majestic outdoor</li></a>
+                <a href="https://www.monessenhearth.com/fireplaces/outdoor-fireplaces" target="_blank"><li>Monessen / Majestic Outdoor</li></a>
                 <a href="https://napoleon.com/en/ca/barbecues/products/outdoor-heating/patioflame-series" target="_blank"><li>Napoleon Outdoor</li></a>
             </ul>
         </div>

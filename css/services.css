@@ -58,10 +58,29 @@ a[href^="tel"] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-bottom: 2px solid #a31621;
 }
 
 #history h2 {
   text-align: center;
+}
+
+@media (max-width: 599px) {
+  #history h2 {
+    font-size: 20px;
+  }
+}
+
+#history h1 {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #a31621;
+}
+
+@media (max-width: 599px) {
+  #history h1 {
+    font-size: 20px;
+  }
 }
 
 .products {
@@ -142,5 +161,61 @@ a[href^="tel"] {
   font-family: "Jaldi", sans-serif;
   font-size: 30px;
   text-shadow: 1px 1px 1px #363636;
+}
+
+#range {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+@media (min-width: 950px) {
+  #range div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #range div img {
+    width: 500px;
+    height: auto;
+  }
+  #range div ul {
+    width: 50%;
+  }
+}
+
+#range h3 {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+@media (max-width: 599px) {
+  #range h2 {
+    margin: 0 10px 20px 10px;
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=services.css.map */

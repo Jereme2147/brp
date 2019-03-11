@@ -40,7 +40,7 @@
             <h2>Changes to our Privacy Policy</h2>
             <p>If we decide to change our privacy policy, we will post those changes on this page.  This policy was last modified 07/27/2017.</p>
             <h2>Contacting Us</h2>
-            <p>f there are any questions regarding this privacy policy you may contact us using the information below:
+            <p>If there are any questions regarding this privacy policy you may contact us using the information below:
             <a href="mailto:blueridgepropanenc@gmail.com">
                 blueridgepropanenc@gmail.com
             </a>
