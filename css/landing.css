@@ -87,12 +87,23 @@
           align-items: center;
   background-color: #ced3dc;
   color: #363636;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#landing-header img {
+  padding-top: 10px;
+}
+
+#landing-header h1 {
+  text-align: center;
+  border-bottom: 1px solid #a31621;
 }
 
 @media (min-width: 950px) {
   #landing-header {
     width: 80%;
-    font-size: 35px;
+    font-size: 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -136,6 +147,10 @@
     color: white;
     text-shadow: 3px 3px 3px #363636, -2px -2px 1px #ced3dc;
   }
+}
+
+.no-pic {
+  border-bottom: 2px solid #a31621;
 }
 
 #phone-map {

@@ -43,7 +43,7 @@
     }
 
     // echo "Email $email First $first Last $last Business $business Message $message";
-    mail('blueridgepropanenc@gmail.com', 'Customer', $message);
+    mail('info@jeremedaniels.com', 'Customer', $message);
     // header("Location: ../index.php");
     header("Location: ./success.php");
 

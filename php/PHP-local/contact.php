@@ -2,7 +2,7 @@
     include_once "../header/header.php";
 ?>
 <div id="banner">
-    <img src="/media/brpoffice.png" alt="blue ridge propane delivery trucks" />
+    <img src="/brp/media/brpoffice.png" alt="blue ridge propane delivery trucks" />
 </div>
 <div id="contact">
     <h1>Contact Blue Ridge Propane here for service, delivery, products or more information</h1>

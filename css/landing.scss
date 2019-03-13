@@ -73,17 +73,24 @@ $body: "Molengo", sans-serif;
     align-items: center;
     background-color: $grey;
     color: $black;
-
+    font-size: 12px;
+    text-transform: uppercase;
+    
         img{
             // width: 30%;
             // border-radius: 50%;
             // height: 274px;
             // width: 274px;
+            padding-top: 10px;
         }  
+        h1 {
+            text-align: center;
+            border-bottom: 1px solid $red;
+        }
     @include desktop() {
         // flex-direction: row;
         width: 80%;
-        font-size: 35px;
+        font-size: 20px;
         justify-content: center;
         align-items: center;
         // padding: 20px 0 0 0;
@@ -114,6 +121,9 @@ $body: "Molengo", sans-serif;
 
     }
     
+}
+.no-pic {
+    border-bottom: 2px solid $red;
 }
 #phone-map {
     border-radius: 20px;

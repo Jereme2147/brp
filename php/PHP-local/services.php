@@ -3,7 +3,7 @@
 ?>
 <!-- everything contained USED to be "about".  Classes and IDs will reflect so.  -->
 <div id="banner">
-    <img src="../media/bottomBanner.png" alt="banner with propane truck" />
+    <img src="/brp/media/bottomBanner.png" alt="banner with propane truck" />
 </div>
 <div id="history" class="about">
     <h1><strong>Providing Propane Service to the High Country Since 1992</strong></h1>
@@ -17,7 +17,7 @@
 <div class="about" id="range">
     <h2>Blue Ridge Propane offers a full range of services.</h2>
     <div>
-        <img src="../media/truck500.png" alt="Propane delivery truck" />
+        <img src="/brp/media/truck500.png" alt="Propane delivery truck" />
         <ul>
         <li>Commercial and Residential Propane</li>
         <li>Appliance Sales
@@ -26,7 +26,7 @@
                 <li>Fire Logs</li>
                 <li>Room Heaters</li>
                 <!-- link needs to be changed when uploaded ********* -->
-                <li><a href="../php/products.php">Full list HERE</a></li>
+                <li><a href="/brp/php/products.php">Full list HERE</a></li>
             </ul>
         </li>
         <li>Propane System & Appliance Service</li>

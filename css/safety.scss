@@ -121,6 +121,9 @@ $body: "Molengo", sans-serif;
 }
 #safe-title {
     text-align: center;
+    h1 {
+        border-bottom: 1px solid $red;
+    }
 }
 #weather-exp {
     display: none;

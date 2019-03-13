@@ -70,6 +70,22 @@ a[href^="tel"] {
           align-items: center;
 }
 
+#contact h1 {
+  color: #363636;
+  border-bottom: 2px solid #a31621;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 950px) {
+  #contact h1 {
+    font-size: 25px;
+  }
+}
+
 #contact-form {
   width: 100%;
   display: -webkit-box;
